@@ -86,8 +86,8 @@ WSGI_APPLICATION = 'project.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'hakkadatabase',
-        'USER': 'hakkadatabase',
+        'NAME': 'hakkayetidb',
+        'USER': 'hakkayetidb',
         'PASSWORD': 'Hakkayeti01',
         'HOST': 'hakkadatabase.c1xqbtskwq6u.us-east-2.rds.amazonaws.com',
         'PORT': '5432',
