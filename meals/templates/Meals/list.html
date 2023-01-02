@@ -12,13 +12,10 @@
                 <div class="col-md-12" data-aos="fade-up">
                   <h2 class="heading">...  <br /> ... <br />If you haven’t yet fallen in love with Hakka Chinese cuisine, you’re in for a treat!</h2>
                 </div>
-                <p>Hello</p>
               </div>
             </div>
           </div>
-        </div> <!-- .cover_1 -->
-
-        {% comment %}
+        </div>
 
         <div class="section">
           <div class="container">
@@ -36,7 +33,7 @@
 
           <div class="menus d-flex bg-light">
             <div class="d-flex item">
-              <div class="image" style="background-image: url(img/img_1.jpg);" data-aos="fade"></div>
+              <div class="image" style="background-image: url({% static 'site_static/img/img_1.jpg' %})" data-aos="fade"></div>
               <div class="text">
                 <h3>Grilled Egg With Garlic</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo quisquam saepe quaerat.</p>
@@ -45,7 +42,7 @@
             </div> <!-- .item -->
 
             <div class="d-flex item">
-              <div class="image order-2 order-md-1"  style="background-image: url(img/img_2.jpg);" data-aos="fade" data-aos-delay="100"></div>
+              <div class="image order-2 order-md-1"  style="background-image: url({% static 'site_static/img/img_2.jpg' %})" data-aos="fade" data-aos-delay="100"></div>
               <div class="text order-1 order-md-2">
                 <h3>Organic Tomato Salad</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo quisquam saepe quaerat.</p>
@@ -54,7 +51,7 @@
             </div> <!-- .item -->
 
             <div class="d-flex item">
-              <div class="image order-1 order-md-2 order-lg-2 order-xl-1" style="background-image: url(img/img_3.jpg);" data-aos="fade" data-aos-delay="200"></div>
+              <div class="image order-1 order-md-2 order-lg-2 order-xl-1" style="background-image: url({% static 'site_static/img/img_3.jpg' %})" data-aos="fade" data-aos-delay="200"></div>
               <div class="text order-2 order-md-1 order-lg-1 order-xl-2">
                 <h3>Flatbread</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo quisquam saepe quaerat.</p>
@@ -64,8 +61,8 @@
             </div> <!-- .item -->
 
             <div class="d-flex item">
-              <div class="image order-2" style="background-image: url(img/img_4.jpg);" data-aos="fade" data-aos-delay="300"></div>
-              <div class="text order-1 mb-3">
+              <div class="image order-1 order-lg-1 order-xl-2" style="background-image: url({% static 'site_static/img/img_4.jpg' %})" data-aos="fade" data-aos-delay="300"></div>
+              <div class="text order-2 order-lg-2 order-xl-1">
                 <h3>Rack Of Lamb</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo quisquam saepe quaerat.</p>
                 <p class="price">$13.00</p>
@@ -73,7 +70,7 @@
             </div> <!-- .item -->
 
             <div class="d-flex item">
-              <div class="image order-1 order-lg-1 order-xl-2" style="background-image: url(img/img_5.jpg);" data-aos="fade" data-aos-delay="400"></div>
+              <div class="image order-1 order-lg-1 order-xl-2" style="background-image: url({% static 'site_static/img/img_5.jpg' %})" data-aos="fade" data-aos-delay="400"></div>
               <div class="text order-2 order-lg-2 order-xl-1">
                 <h3>Eggplant Parmigiana</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo quisquam saepe quaerat.</p>
@@ -82,7 +79,7 @@
             </div> <!-- .item -->
 
             <div class="d-flex item">
-              <div class="image order-2 order-md-1 order-lg-1 order-xl-2" style="background-image: url(img/img_6.jpg);" data-aos="fade" data-aos-delay="500"></div>
+              <div class="image order-2 order-md-1 order-lg-1 order-xl-2" style="background-image: url({% static 'site_static/img/img_6.jpg' %})" data-aos="fade" data-aos-delay="500"></div>
               <div class="text order-1 order-md-2 order-lg-2 order-xl-1">
                 <h3>Spicy Meatballs</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur illo quisquam saepe quaerat.</p>
@@ -92,7 +89,6 @@
 
           </div>
         </div> 
-        {% endcomment %}
 
         <div class="section">
           <div class="container">
