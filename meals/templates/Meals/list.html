@@ -90,6 +90,7 @@
           </div>
         </div> 
 
+        <!-- 
         <div class="section">
           <div class="container">
             <div class="row justify-content-center">
@@ -123,7 +124,7 @@
                               <div class="price order-2">
                                 <strong>${{meal.price}}</strong>
                               </div>
-                            </div> <!-- .menu-food-item -->
+                            </div> 
                           {% endif %}
                       {% endfor %}
 
@@ -141,6 +142,26 @@
 
         
 
-      </div> <!-- .main-wrap -->
+      </div> 
+     -->
+     <div class="section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8" data-aos="fade-up">
+
+            <h2 class="mb-5 text-center">Menu List with Price</h2>
+
+            {% for meal in meal_list %}
+
+            <h2> {{meal.name}}</h2>
+            <p> {{meal.description}}</p>
+
+            {% endfor %}
+
+          </div>
+        </div>
+        </div>
+        </div>
+    
       
       {% endblock body %}
